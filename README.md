@@ -1,5 +1,5 @@
 ## Zero-Sum Testing Tool
-This is a short tool written in C++ to test zero-sum distinguishers for cryptographic permutations. Currently, the following primitives are implemented:
+This is a short tool written in C++ to test zero-sum distinguishers for cryptographic permutations using polynomial S-boxes over GF(2^n). Currently, the following primitives are implemented:
 - MiMC [1]
 - Some versions of GMiMC [2]
 - HadesMiMC and variants (e.g., only partial S-box layers) [3]
